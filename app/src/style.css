@@ -1,0 +1,537 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  color-scheme: light;
+}
+body {
+  margin: 0;
+  font:
+    16px/1.48 "Segoe UI",
+    system-ui,
+    sans-serif;
+  background: #faf8f2;
+  color: #203329;
+}
+a {
+  color: #19543e;
+}
+button,
+input,
+textarea,
+select,
+.button {
+  font: inherit;
+}
+button,
+.button,
+select {
+  border: 1px solid #c0ccbd;
+  border-radius: 9px;
+  background: #fff;
+  color: #274333;
+  cursor: pointer;
+  padding: 9px 14px;
+  min-height: 44px;
+}
+.button {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+button:hover,
+.button:hover {
+  border-color: #658c73;
+}
+button:disabled {
+  opacity: 0.65;
+  cursor: wait;
+}
+button:focus-visible,
+a:focus-visible {
+  outline: 3px solid #b46838;
+  outline-offset: 2px;
+}
+.primary,
+.account {
+  background: #1a503b;
+  color: white;
+  border-color: #1a503b;
+}
+.sel,
+nav [aria-current="page"] {
+  background: #e2ebde;
+  color: #1a503b;
+}
+.text,
+.quiet {
+  color: #19573d;
+  border: 0;
+  background: transparent;
+}
+.text {
+  padding: 3px 6px;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.wrap {
+  width: min(1180px, calc(100% - 48px));
+  margin: auto;
+}
+.site {
+  background: #fffdf8;
+  border-bottom: 1px solid #d5dccf;
+}
+.top,
+.actions,
+.split,
+.row,
+.ad,
+nav {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.top {
+  height: 72px;
+  gap: 36px;
+}
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 800;
+  letter-spacing: -1.5px;
+  font-size: 26px;
+  color: #1e503a;
+  text-decoration: none;
+}
+.brand span {
+  background: #194936;
+  color: #f4e9c3;
+  border-radius: 10px;
+  font-size: 32px;
+  text-align: center;
+  width: 40px;
+  line-height: 40px;
+}
+nav a {
+  padding: 9px 15px;
+  border-radius: 9px;
+  font-weight: 600;
+  color: #354d3f;
+  text-decoration: none;
+}
+.account {
+  margin-left: auto;
+}
+.hero {
+  display: grid;
+  grid-template-columns: 1.12fr 1fr;
+  overflow: hidden;
+  border-radius: 18px;
+  color: #fff9df;
+  background: #1b4b37;
+  margin: 24px 0 16px;
+}
+.hero > div {
+  padding: 32px clamp(22px, 5vw, 68px);
+  align-self: center;
+}
+.hero img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+}
+.eyebrow {
+  letter-spacing: 0.16em;
+  font-size: 13px;
+  font-weight: 700;
+  color: #e4dcab;
+}
+.hero h1 {
+  font:
+    600 clamp(34px, 4.2vw, 58px)/0.99 Georgia,
+    serif;
+  letter-spacing: -1.5px;
+  margin: 10px 0;
+}
+.hero p {
+  margin: 10px 0 0;
+  color: #e2ead9;
+}
+.searchPanel,
+.panel,
+.metrics article,
+.card,
+.ad {
+  background: white;
+  border: 1px solid #d7ddcf;
+  border-radius: 14px;
+}
+.searchPanel,
+.panel,
+.metrics article,
+.ad {
+  padding: 18px;
+}
+.searchPanel {
+  display: grid;
+  gap: 8px;
+}
+.search {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #b6c4b3;
+  border-radius: 9px;
+  padding: 0 12px;
+}
+.search span {
+  font-size: 26px;
+}
+.search input {
+  width: 100%;
+  border: 0;
+  min-height: 44px;
+  font: inherit;
+}
+.split,
+.row {
+  justify-content: space-between;
+}
+.split {
+  margin: 20px 0 14px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+}
+.card {
+  text-align: left;
+  padding: 0;
+  overflow: hidden;
+  align-self: stretch;
+  color: #23362a;
+}
+.card img,
+.cover {
+  width: 100%;
+  display: block;
+  aspect-ratio: 1.65;
+  object-fit: cover;
+}
+.card div {
+  padding: 13px;
+}
+.card p,
+.row p {
+  margin: 5px 0;
+  color: #516156;
+}
+.card strong {
+  color: #235b3e;
+  font-size: 18px;
+}
+.meta,
+small {
+  font-size: 13px;
+  color: #516156;
+}
+.card h3 {
+  margin: 4px 0;
+  font-size: 18px;
+}
+.panel,
+.ad {
+  margin: 14px 0;
+}
+.ad {
+  background: #f3eddd;
+}
+.ad button {
+  margin-left: auto;
+}
+h1,
+h2,
+h3 {
+  line-height: 1.18;
+}
+h1 {
+  font-size: 32px;
+}
+h2 {
+  font-size: 23px;
+}
+h1,
+h2 {
+  margin: 6px 0;
+}
+.details,
+.columns,
+.metrics,
+.fields {
+  display: grid;
+  gap: 16px;
+}
+.details {
+  grid-template-columns: 1fr 1.4fr;
+  align-items: center;
+}
+.details img {
+  border-radius: 14px;
+}
+.details .actions {
+  margin-top: 14px;
+}
+.columns,
+.fields {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.metrics {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.metrics strong {
+  display: block;
+  font-size: 28px;
+  letter-spacing: -1px;
+}
+.metrics .balance {
+  background: #194936;
+  color: white;
+}
+.balance small {
+  color: #eff3e5;
+}
+.row {
+  padding: 12px 0;
+  border-bottom: 1px solid #dce1d6;
+}
+.row:last-child {
+  border: 0;
+}
+.row > div > button {
+  margin-left: 6px;
+}
+.bar {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1fr;
+  align-items: center;
+  gap: 6px;
+  width: 100%;
+  border: 0;
+  text-align: left;
+  padding: 6px 2px;
+  font-size: 14px;
+}
+.bar i {
+  background: #e5ebdf;
+  height: 9px;
+  border-radius: 5px;
+}
+.bar em {
+  display: block;
+  background: #6a9673;
+  height: 100%;
+  border-radius: 5px;
+}
+.bar[aria-pressed="true"] {
+  color: #9d4522;
+}
+.panel select {
+  margin: 10px 0;
+}
+form label,
+.fields label {
+  display: grid;
+  gap: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+label input:not([type="checkbox"]),
+label textarea,
+label select {
+  padding: 10px;
+  min-width: 0;
+  color: inherit;
+  border: 1px solid #bbc9b9;
+  border-radius: 8px;
+  width: 100%;
+  font: inherit;
+}
+.search input[type="search"] {
+  border: 0;
+  font: inherit;
+}
+label.check {
+  display: flex;
+}
+.check input {
+  width: auto;
+}
+dialog {
+  width: min(480px, calc(100% - 24px));
+  max-height: 90dvh;
+  border: 1px solid #b5c4b1;
+  border-radius: 15px;
+  color: inherit;
+  padding: 22px;
+}
+dialog::backdrop {
+  background: #182c2099;
+}
+dialog .split {
+  margin: 0 0 12px;
+}
+details {
+  margin-top: 16px;
+}
+summary {
+  cursor: pointer;
+}
+fieldset {
+  margin: 12px 0;
+  min-width: 0;
+  border: 1px solid #d7ddcf;
+  border-radius: 9px;
+}
+.welcome {
+  padding: 32px;
+}
+.actions {
+  gap: 7px;
+}
+.actions button {
+  font-size: 14px;
+}
+[role="alert"] {
+  color: #963c26;
+}
+footer.wrap {
+  font-size: 13px;
+  border-top: 1px solid #d2dace;
+  margin: 30px auto 0;
+  padding: 20px 0;
+  color: #566258;
+}
+body:has(dialog[open]) {
+  overflow: hidden;
+}
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+@media (max-width: 720px) {
+  .top {
+    height: 60px;
+    gap: 8px;
+  }
+  .wrap {
+    width: calc(100% - 24px);
+  }
+  nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+    background: #fffdf8;
+    border-top: 1px solid #d5dccf;
+    justify-content: center;
+    padding: 6px;
+  }
+  nav a {
+    min-width: 30%;
+    text-align: center;
+  }
+  .hero {
+    margin: 14px 0;
+    grid-template-columns: 1.15fr 1fr;
+  }
+  .hero > div {
+    padding: 17px;
+  }
+  .hero img {
+    height: 100%;
+    min-height: 165px;
+  }
+  .hero p,
+  .eyebrow {
+    font-size: 13px;
+  }
+  .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+  .metrics {
+    grid-template-columns: 1fr 1fr;
+  }
+  .metrics .balance {
+    grid-column: 1/-1;
+  }
+  .metrics strong {
+    font-size: 23px;
+  }
+  .details,
+  .columns {
+    grid-template-columns: 1fr;
+  }
+  .cover {
+    aspect-ratio: 2.2;
+  }
+  .split h1 {
+    font-size: 27px;
+  }
+  .searchPanel,
+  .panel {
+    padding: 13px;
+  }
+  .row {
+    gap: 6px;
+  }
+  footer.wrap {
+    padding-bottom: 88px;
+  }
+  dialog {
+    padding: 15px;
+  }
+}
+@media (max-width: 430px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .card {
+    display: grid;
+    grid-template-columns: 36% 1fr;
+    align-items: stretch;
+  }
+  .card div:only-child {
+    grid-column: 1/-1;
+  }
+  .card img {
+    height: 100%;
+    min-height: 120px;
+  }
+  .hero h1 {
+    font-size: 32px;
+  }
+  .hero .eyebrow {
+    font-size: 11px;
+  }
+  .top .brand {
+    font-size: 23px;
+  }
+  .row > div > button {
+    margin: 2px;
+  }
+  .fields {
+    gap: 8px;
+  }
+  .ad button {
+    margin-left: 0;
+  }
+}
