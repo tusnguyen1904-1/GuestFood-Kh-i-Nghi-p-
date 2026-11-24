@@ -97,25 +97,8 @@ nav {
   height: 72px;
   gap: 36px;
 }
-.brand {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  font-weight: 800;
-  letter-spacing: -1.5px;
-  font-size: 26px;
-  color: #1e503a;
-  text-decoration: none;
-}
-.brand span {
-  background: #194936;
-  color: #f4e9c3;
-  border-radius: 10px;
-  font-size: 32px;
-  text-align: center;
-  width: 40px;
-  line-height: 40px;
-}
+.brand { display: inline-flex; align-items: center; }
+.brand img { display: block; width: auto; height: 62px; }
 nav a {
   padding: 9px 15px;
   border-radius: 9px;
@@ -426,6 +409,7 @@ body:has(dialog[open]) {
   }
 }
 @media (max-width: 720px) {
+  .brand img { height: 54px; }
   .top {
     height: 60px;
     gap: 8px;
@@ -522,9 +506,7 @@ body:has(dialog[open]) {
   .hero .eyebrow {
     font-size: 11px;
   }
-  .top .brand {
-    font-size: 23px;
-  }
+
   .row > div > button {
     margin: 2px;
   }

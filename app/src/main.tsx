@@ -101,7 +101,7 @@ function App() {
       <header className="site">
         <div className="wrap top">
           <a className="brand" href="#tim-mon">
-            <span>◒</span>guestFood
+            <img src="/guestfood-logo.svg" alt="guestfood" width="104" height="61" />
           </a>
           <nav>
             <a
