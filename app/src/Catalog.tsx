@@ -214,7 +214,7 @@ export function Catalog({
           <h1>
             Bữa ngon
             <br />
-            quanh trường
+            quanh bạn
           </h1>
           <p>Tìm món vừa túi tiền, từ nơi bạn đang đứng.</p>
         </div>
