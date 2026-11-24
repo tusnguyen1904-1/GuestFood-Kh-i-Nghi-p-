@@ -9,7 +9,7 @@ Dùng Node.js 22.12+ hoặc 24. Trong thư mục app, chạy `npm ci`, sau đó 
 ## Kết nối Supabase
 
 1. Tạo project Free. Trong Authentication bật đăng nhập Email/Password, cho phép đăng ký và tắt **Confirm email**. Lần đăng ký đầu tiên phải nhận phiên đăng nhập ngay. Email người dùng khai báo chưa được xác minh.
-2. Từ app, chạy các lệnh bên dưới bằng Supabase CLI. Migration tạo bảng, phân quyền theo hàng và hàm quản trị; seed thêm 23 hồ sơ Maps và 50 món mẫu.
+2. Từ app, chạy các lệnh bên dưới bằng Supabase CLI. Migration tạo bảng, phân quyền theo hàng và hàm quản trị; seed thêm 23 hồ sơ Maps và 47 món mẫu.
 
 ```sh
 supabase login

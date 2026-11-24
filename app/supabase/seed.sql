@@ -38,46 +38,10 @@ insert into public.dishes(branch_id,name,price,unit,photo)
 select added.id,d.name,d.price,d.unit,d.photo from added cross join (values ('Cơm gà xối mỡ',35000,'phần','com'),('Cơm gà sốt tiêu',40000,'phần','com')) as d(name,price,unit,photo);
 with added as (
  insert into public.branches(id,name,address,lat,lon,map,place_id,verified_at,published)
- values ('v35','Lẩu Chay Đức Lạc','VQMM+6V9, Tô Vĩnh Diện, Đông Hòa, Hồ Chí Minh, Việt Nam','10.8830449','106.7847384','https://www.google.com/maps?cid=3859334469157949967','ChIJQ5pEBzzZdDERD5KUh0AcjzU','2026-11-23',true) on conflict (id) do nothing returning id
-)
-insert into public.dishes(branch_id,name,price,unit,photo)
-select added.id,d.name,d.price,d.unit,d.photo from added cross join (values ('Lẩu chay nấm',95000,'nồi','lau'),('Lẩu Thái chay',105000,'nồi','lau')) as d(name,price,unit,photo);
-with added as (
- insert into public.branches(id,name,address,lat,lon,map,place_id,verified_at,published)
  values ('v36','Lẩu Chay Hữu Duyên','767/6 Tô Vĩnh Diện, Đông Hòa, Hồ Chí Minh, Việt Nam','10.8848594','106.7839086','https://www.google.com/maps?cid=14888146145046959689','ChIJ5ydNuLPZdDERSRagwwlSnc4','2026-11-23',true) on conflict (id) do nothing returning id
 )
 insert into public.dishes(branch_id,name,price,unit,photo)
 select added.id,d.name,d.price,d.unit,d.photo from added cross join (values ('Lẩu nấm chay',95000,'nồi','lau'),('Lẩu chay thập cẩm',110000,'nồi','lau')) as d(name,price,unit,photo);
-with added as (
- insert into public.branches(id,name,address,lat,lon,map,place_id,verified_at,published)
- values ('v37','PaPa Xốt Singapore 3','Đông Hòa, Hồ Chí Minh, Việt Nam','10.8830483','106.7844714','https://goo.gl/maps/xbp5mTBReTQKpKst6','ChIJCUJggwfZdDERQWVLxc8lc4M','2026-11-23',true) on conflict (id) do nothing returning id
-)
-insert into public.dishes(branch_id,name,price,unit,photo)
-select added.id,d.name,d.price,d.unit,d.photo from added cross join (values ('Cơm xèo bò',45000,'phần','com'),('Cơm xèo hải sản',50000,'phần','com')) as d(name,price,unit,photo);
-with added as (
- insert into public.branches(id,name,address,lat,lon,map,place_id,verified_at,published)
- values ('v01','Hằng Thiện Chay - Vegetarian Restaurant','68 Nguyễn Bỉnh Khiêm, Đông Hòa, Hồ Chí Minh, Việt Nam','10.8777398','106.8089017','https://goo.gl/maps/k34qFCzktRuwR9e2A','ChIJE1a_tUHZdDERUU9gQBrAEtM','2026-11-23',true) on conflict (id) do nothing returning id
-)
-insert into public.dishes(branch_id,name,price,unit,photo)
-select added.id,d.name,d.price,d.unit,d.photo from added cross join (values ('Cơm chay nấm kho',28000,'phần','chay'),('Lẩu nấm chay',95000,'nồi','lau'),('Bún chay rau củ',30000,'phần','bun')) as d(name,price,unit,photo);
-with added as (
- insert into public.branches(id,name,address,lat,lon,map,place_id,verified_at,published)
- values ('v04','BÚN ĐẬU BOX','Đông Hòa, Hồ Chí Minh, Việt Nam','10.8742738','106.7994206','https://goo.gl/maps/9ayMj6whd49yEURDA','ChIJEapoQg7ZdDERoR166FTVL4k','2026-11-23',true) on conflict (id) do nothing returning id
-)
-insert into public.dishes(branch_id,name,price,unit,photo)
-select added.id,d.name,d.price,d.unit,d.photo from added cross join (values ('Bún đậu mắm tôm',35000,'phần','bun'),('Bún đậu chả cốm',40000,'phần','bun'),('Bún đậu đặc biệt',55000,'phần','bun')) as d(name,price,unit,photo);
-with added as (
- insert into public.branches(id,name,address,lat,lon,map,place_id,verified_at,published)
- values ('v05','Lẩu chay Tâm Diệu 3','VQFX+HVR, Đông Hòa, Hồ Chí Minh, Việt Nam','10.8739982','106.799651','https://goo.gl/maps/z7XzuDemWb9Jfihj7','ChIJs_klvPHZdDERcQdvXRMeMCA','2026-11-23',true) on conflict (id) do nothing returning id
-)
-insert into public.dishes(branch_id,name,price,unit,photo)
-select added.id,d.name,d.price,d.unit,d.photo from added cross join (values ('Bún nấm chay',28000,'phần','bun'),('Cơm chay thập cẩm',30000,'phần','chay'),('Lẩu rau nấm',90000,'nồi','lau')) as d(name,price,unit,photo);
-with added as (
- insert into public.branches(id,name,address,lat,lon,map,place_id,verified_at,published)
- values ('v07','Bánh mì hà nội','Đường D2/tổ 8 Tân Lập, Khu Phố, Đông Hòa, Hồ Chí Minh, Việt Nam','10.873662','106.8008731','https://goo.gl/maps/XhPU4bFw7VZrrtDA6','ChIJqdvdBTHZdDERXR70VQH7eOQ','2026-11-23',true) on conflict (id) do nothing returning id
-)
-insert into public.dishes(branch_id,name,price,unit,photo)
-select added.id,d.name,d.price,d.unit,d.photo from added cross join (values ('Bánh mì thịt nướng',25000,'phần','banh'),('Bánh mì trứng',18000,'phần','banh')) as d(name,price,unit,photo);
 with added as (
  insert into public.branches(id,name,address,lat,lon,map,place_id,verified_at,published)
  values ('v09','Mộc Lan Quán - Cơm thố & Mì Singapore Làng đại học Thủ Đức','VQFX+XHC, Đông Hòa, Hồ Chí Minh, Việt Nam','10.8749356','106.7988775','https://goo.gl/maps/V3TtS8BKVXWkDwKX6','ChIJe2Wdmz_ZdDER-fv_PapomVM','2026-11-23',true) on conflict (id) do nothing returning id
@@ -86,46 +50,16 @@ insert into public.dishes(branch_id,name,price,unit,photo)
 select added.id,d.name,d.price,d.unit,d.photo from added cross join (values ('Cơm thố gà',38000,'phần','com'),('Mì xào Singapore',40000,'phần','mi'),('Cơm thố bò',45000,'phần','com')) as d(name,price,unit,photo);
 with added as (
  insert into public.branches(id,name,address,lat,lon,map,place_id,verified_at,published)
- values ('v13','Bò né Chu Pin','VQFX+749, Đường T1, Đông Hòa, Hồ Chí Minh, Việt Nam','10.8731734','106.7978699','https://goo.gl/maps/AoVJDwXmWjpc91Ar8','ChIJedrgJhrZdDERImv5wEnk-BA','2026-11-23',true) on conflict (id) do nothing returning id
-)
-insert into public.dishes(branch_id,name,price,unit,photo)
-select added.id,d.name,d.price,d.unit,d.photo from added cross join (values ('Bò né trứng',42000,'phần','bo'),('Bánh mì bò né',48000,'phần','bo')) as d(name,price,unit,photo);
-with added as (
- insert into public.branches(id,name,address,lat,lon,map,place_id,verified_at,published)
  values ('v16','Cơm tấm Ngô Quyền','21/5 Võ Nguyên Giáp, Linh Xuân, Hồ Chí Minh, Việt Nam','10.8716618','106.7981618','https://goo.gl/maps/9U46eduX2KgZgeTh7','ChIJZcj7kKDYdDERbLBLb6jJWDw','2026-11-23',true) on conflict (id) do nothing returning id
 )
 insert into public.dishes(branch_id,name,price,unit,photo)
 select added.id,d.name,d.price,d.unit,d.photo from added cross join (values ('Cơm tấm sườn bì',35000,'phần','com'),('Cơm sườn bì chả',42000,'phần','com')) as d(name,price,unit,photo);
 with added as (
  insert into public.branches(id,name,address,lat,lon,map,place_id,verified_at,published)
- values ('v19','Phở Lý Quốc Sư Hà Nội| PHỞ NGON LÀNG ĐẠI HỌC| PHỞ NGON THỦ ĐỨC','VQFX+4X3, Đông Hòa, Hồ Chí Minh, Việt Nam','10.8727747','106.7999362','https://goo.gl/maps/EYSfnuTjDAQ7dgjJ8','ChIJOwAjal7ZdDERi9DFW_nvuJY','2026-11-23',true) on conflict (id) do nothing returning id
-)
-insert into public.dishes(branch_id,name,price,unit,photo)
-select added.id,d.name,d.price,d.unit,d.photo from added cross join (values ('Phở tái nạm',45000,'phần','pho'),('Phở bò tái',40000,'phần','pho')) as d(name,price,unit,photo);
-with added as (
- insert into public.branches(id,name,address,lat,lon,map,place_id,verified_at,published)
- values ('v21','Hủ tiếu 76 Quảng Ngãi','VRF2+87G, Đông Hòa, Hồ Chí Minh, Việt Nam','10.873311','106.800696','https://goo.gl/maps/c36Lhg1qGRFEDyBr5','ChIJfUGUccfZdDER_gm8RWBpKxk','2026-11-23',true) on conflict (id) do nothing returning id
-)
-insert into public.dishes(branch_id,name,price,unit,photo)
-select added.id,d.name,d.price,d.unit,d.photo from added cross join (values ('Hủ tiếu Quảng Ngãi',32000,'phần','mi'),('Hủ tiếu sườn',38000,'phần','mi')) as d(name,price,unit,photo);
-with added as (
- insert into public.branches(id,name,address,lat,lon,map,place_id,verified_at,published)
- values ('v22','CƠM CHAY THIÊN NHIÊN - Làng Đại Học','9 Đông Hòa, Hồ Chí Minh, Việt Nam','10.8725518','106.7995662','https://goo.gl/maps/oDR5m8DhuikBNiaw5','ChIJN5Q6ZF7ZdDER1x0IETl9dZM','2026-11-23',true) on conflict (id) do nothing returning id
-)
-insert into public.dishes(branch_id,name,price,unit,photo)
-select added.id,d.name,d.price,d.unit,d.photo from added cross join (values ('Cơm chay đậu hũ',25000,'phần','chay'),('Cơm chay nấm kho',28000,'phần','chay')) as d(name,price,unit,photo);
-with added as (
- insert into public.branches(id,name,address,lat,lon,map,place_id,verified_at,published)
  values ('v24','LẨU NƯỚNG CÔ LIÊN LÀNG ĐH KHU B','VQMP+32M, Bảo Vệ Tuyến Ống Nước Thô, Đông Hòa, Hồ Chí Minh, Việt Nam','10.8827142','106.7850368','https://goo.gl/maps/zPRw4nCorSJuHmPG6','ChIJe5lN9iXZdDER53kR8K23g3I','2026-11-23',true) on conflict (id) do nothing returning id
 )
 insert into public.dishes(branch_id,name,price,unit,photo)
 select added.id,d.name,d.price,d.unit,d.photo from added cross join (values ('Lẩu Thái chua cay',120000,'nồi','lau'),('Mì xào bò',40000,'phần','mi')) as d(name,price,unit,photo);
-with added as (
- insert into public.branches(id,name,address,lat,lon,map,place_id,verified_at,published)
- values ('v25','Quán dê Hưng Mập','161 Tô Vĩnh Diện, Đông Hòa, Hồ Chí Minh, Việt Nam','10.8828601','106.7854609','https://goo.gl/maps/FDddS3Lfs7Y7RXwH8','ChIJxTzzOsbZdDERK1sKVoJ32AY','2026-11-23',true) on conflict (id) do nothing returning id
-)
-insert into public.dishes(branch_id,name,price,unit,photo)
-select added.id,d.name,d.price,d.unit,d.photo from added cross join (values ('Lẩu dê',165000,'nồi','lau'),('Dê hấp sả',105000,'đĩa','')) as d(name,price,unit,photo);
 with added as (
  insert into public.branches(id,name,address,lat,lon,map,place_id,verified_at,published)
  values ('v26','Lẩu Bò Hà Lan','151 Tô Vĩnh Diện, Đông Hòa, Hồ Chí Minh 590000, Việt Nam','10.8830222','106.7850927','https://goo.gl/maps/cVeobf7Gafi2ijV49','ChIJfwIDfg7ZdDERF60V7yqmtBk','2026-11-23',true) on conflict (id) do nothing returning id
@@ -138,4 +72,70 @@ with added as (
 )
 insert into public.dishes(branch_id,name,price,unit,photo)
 select added.id,d.name,d.price,d.unit,d.photo from added cross join (values ('Lẩu chay rau nấm',100000,'nồi','lau'),('Cơm chay rau củ',30000,'phần','chay')) as d(name,price,unit,photo);
+with added as (
+ insert into public.branches(id,name,address,lat,lon,map,place_id,verified_at,published)
+ values ('v38','IU Canteen','VRH2+27J, Đông Hòa, Hồ Chí Minh, Việt Nam','10.8775759','106.8006439','https://maps.app.goo.gl/4NGDiPbKYuCS38wn9','ChIJYZwXc6TYdDERR29dEcBKxco','2026-11-24',true) on conflict (id) do nothing returning id
+)
+insert into public.dishes(branch_id,name,price,unit,photo)
+select added.id,d.name,d.price,d.unit,d.photo from added cross join (values ('Cơm gà',32000,'phần','com'),('Cơm trứng',25000,'phần','com')) as d(name,price,unit,photo);
+with added as (
+ insert into public.branches(id,name,address,lat,lon,map,place_id,verified_at,published)
+ values ('v39','Quán Ăn - Hai Chị Em','220 Đ. Vành Đai Đhqg Hcm, Đông Hòa, Hồ Chí Minh, Việt Nam','10.8824366','106.8120814','https://maps.app.goo.gl/a8t51PghLtQoi1zS7','ChIJ7Q4TDwDZdDERZKmmwX0yudc','2026-11-24',true) on conflict (id) do nothing returning id
+)
+insert into public.dishes(branch_id,name,price,unit,photo)
+select added.id,d.name,d.price,d.unit,d.photo from added cross join (values ('Cơm sườn',35000,'phần','com'),('Bún thịt nướng',35000,'phần','bun')) as d(name,price,unit,photo);
+with added as (
+ insert into public.branches(id,name,address,lat,lon,map,place_id,verified_at,published)
+ values ('v40','Ốc Hoàng - Ốc Ngon Vành Đai, Làng Đại Học','204 Nguyễn Bỉnh Khiêm, khu phố Tân Lập, Đông Hòa, Hồ Chí Minh, Việt Nam','10.8818706','106.8117508','https://maps.app.goo.gl/oLW2S5PESfUbAszN9','ChIJc6DrTADZdDER30uVhTrenx4','2026-11-24',true) on conflict (id) do nothing returning id
+)
+insert into public.dishes(branch_id,name,price,unit,photo)
+select added.id,d.name,d.price,d.unit,d.photo from added cross join (values ('Ốc hấp sả',45000,'phần',''),('Ốc xào bơ tỏi',55000,'phần','')) as d(name,price,unit,photo);
+with added as (
+ insert into public.branches(id,name,address,lat,lon,map,place_id,verified_at,published)
+ values ('v41','Lẩu Bò Triều Châu Làng Đại Học','Nhà Công Vụ 1, Nguyễn Du, Khu đô thị ĐHQG-HCM, Khu phố Tân Hòa, Làng Đại Học Quốc Gia, Đông Hòa, Hồ Chí Minh 70000, Việt Nam','10.8806053','106.7959906','https://maps.app.goo.gl/WvHuv6GJvuUJ6f8YA','ChIJwyzjUADZdDERBaLDdtXa_y8','2026-11-24',true) on conflict (id) do nothing returning id
+)
+insert into public.dishes(branch_id,name,price,unit,photo)
+select added.id,d.name,d.price,d.unit,d.photo from added cross join (values ('Lẩu bò',120000,'nồi','lau'),('Mì bò',45000,'phần','mi')) as d(name,price,unit,photo);
+with added as (
+ insert into public.branches(id,name,address,lat,lon,map,place_id,verified_at,published)
+ values ('v42','Quán Phở Thanh Vân','84-86 Bảo Vệ Tuyến Ống Nước Thô, Đông Hòa, Hồ Chí Minh, Việt Nam','10.8881249','106.787442','https://maps.app.goo.gl/DafYE5QwATBnYmWSA','ChIJAYeIMgDZdDERJgCZqDX_Jws','2026-11-24',true) on conflict (id) do nothing returning id
+)
+insert into public.dishes(branch_id,name,price,unit,photo)
+select added.id,d.name,d.price,d.unit,d.photo from added cross join (values ('Phở bò tái',40000,'phần','pho'),('Phở bò viên',35000,'phần','pho')) as d(name,price,unit,photo);
+with added as (
+ insert into public.branches(id,name,address,lat,lon,map,place_id,verified_at,published)
+ values ('v43','Hủ tiếu 71 làng đại học','đại học Nông Lâm, Đ. Số 4/225 tổ 1, Khu Phố 6, Hiệp Bình, Hồ Chí Minh 700000, Việt Nam','10.8692432','106.7895066','https://www.google.com/maps/search/?api=1&query=H%E1%BB%A7+ti%E1%BA%BFu+71+l%C3%A0ng+%C4%91%E1%BA%A1i+h%E1%BB%8Dc&query_place_id=ChIJry1LSxbZdDER5X2vSbThhwI','ChIJry1LSxbZdDER5X2vSbThhwI','2026-11-24',true) on conflict (id) do nothing returning id
+)
+insert into public.dishes(branch_id,name,price,unit,photo)
+select added.id,d.name,d.price,d.unit,d.photo from added cross join (values ('Hủ tiếu thịt',30000,'phần',''),('Hủ tiếu bò viên',35000,'phần','')) as d(name,price,unit,photo);
+with added as (
+ insert into public.branches(id,name,address,lat,lon,map,place_id,verified_at,published)
+ values ('v44','Lẩu chay Hoằng Đạt 2 (cs5)','33/6 Đường, 33/6 Đ. Lương Định Của, Phường, Đông Hòa, Hồ Chí Minh, Việt Nam','10.8839742','106.7838428','https://www.google.com/maps/search/?api=1&query=L%E1%BA%A9u+chay+Ho%E1%BA%B1ng+%C4%90%E1%BA%A1t+2+%28cs5%29&query_place_id=ChIJi9PEvQHZdDEReDIM_l5isy4','ChIJi9PEvQHZdDEReDIM_l5isy4','2026-11-24',true) on conflict (id) do nothing returning id
+)
+insert into public.dishes(branch_id,name,price,unit,photo)
+select added.id,d.name,d.price,d.unit,d.photo from added cross join (values ('Lẩu nấm chay',95000,'nồi','lau'),('Bún nấm chay',30000,'phần','bun')) as d(name,price,unit,photo);
+with added as (
+ insert into public.branches(id,name,address,lat,lon,map,place_id,verified_at,published)
+ values ('v45','Cơm gà Tam Kỳ làng đại học','89 Đ. Lương Định Của, KP, Đông Hòa, Hồ Chí Minh, Việt Nam','10.8844927','106.7833066','https://www.google.com/maps/search/?api=1&query=C%C6%A1m+g%C3%A0+Tam+K%E1%BB%B3+l%C3%A0ng+%C4%91%E1%BA%A1i+h%E1%BB%8Dc&query_place_id=ChIJiUP3dADZdDERlM8uYjn4k8k','ChIJiUP3dADZdDERlM8uYjn4k8k','2026-11-24',true) on conflict (id) do nothing returning id
+)
+insert into public.dishes(branch_id,name,price,unit,photo)
+select added.id,d.name,d.price,d.unit,d.photo from added cross join (values ('Cơm gà xé',35000,'phần','com'),('Cơm gà đùi',45000,'phần','com')) as d(name,price,unit,photo);
+with added as (
+ insert into public.branches(id,name,address,lat,lon,map,place_id,verified_at,published)
+ values ('v46','Dookki Bcons Dĩ An','38 Đ. Thống Nhất, Đông Hòa, Hồ Chí Minh, Việt Nam','10.8925739','106.7937847','https://www.google.com/maps/search/?api=1&query=Dookki+Bcons+D%C4%A9+An&query_place_id=ChIJO0wpWgDZdDERxCKhkPc-Wa0','ChIJO0wpWgDZdDERxCKhkPc-Wa0','2026-11-24',true) on conflict (id) do nothing returning id
+)
+insert into public.dishes(branch_id,name,price,unit,photo)
+select added.id,d.name,d.price,d.unit,d.photo from added cross join (values ('Buffet lẩu bánh gạo',139000,'phần','lau'),('Lẩu bánh gạo phần đơn',99000,'phần','lau')) as d(name,price,unit,photo);
+with added as (
+ insert into public.branches(id,name,address,lat,lon,map,place_id,verified_at,published)
+ values ('v47','Lẩu Cá 44','11/21 Đường Số 1, khu phố Tân Lập, Đông Hòa, Hồ Chí Minh, Việt Nam','10.881256','106.812649','https://www.google.com/maps/search/?api=1&query=L%E1%BA%A9u+C%C3%A1+44&query_place_id=ChIJb2R36aXYdDERS50bl_Jw9Vg','ChIJb2R36aXYdDERS50bl_Jw9Vg','2026-11-24',true) on conflict (id) do nothing returning id
+)
+insert into public.dishes(branch_id,name,price,unit,photo)
+select added.id,d.name,d.price,d.unit,d.photo from added cross join (values ('Lẩu cá',120000,'nồi','lau'),('Bún cá',35000,'phần','bun')) as d(name,price,unit,photo);
+with added as (
+ insert into public.branches(id,name,address,lat,lon,map,place_id,verified_at,published)
+ values ('v48','Phở Thiên Ân làng đại học','Nhà Điều Hành ĐH Khoa học Tự nhiên Tp.HCM, Đông Hòa, Hồ Chí Minh, Việt Nam','10.8756053','106.799651','https://www.google.com/maps/search/?api=1&query=Ph%E1%BB%9F+Thi%C3%AAn+%C3%82n+l%C3%A0ng+%C4%91%E1%BA%A1i+h%E1%BB%8Dc&query_place_id=ChIJOzTk-PbZdDERvctfUyycJRA','ChIJOzTk-PbZdDERvctfUyycJRA','2026-11-24',true) on conflict (id) do nothing returning id
+)
+insert into public.dishes(branch_id,name,price,unit,photo)
+select added.id,d.name,d.price,d.unit,d.photo from added cross join (values ('Phở bò tái',40000,'phần','pho'),('Phở bò chín',40000,'phần','pho')) as d(name,price,unit,photo);
 commit;

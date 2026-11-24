@@ -168,34 +168,6 @@
     ]
   },
   {
-    "id": "v35",
-    "name": "Lẩu Chay Đức Lạc",
-    "address": "VQMM+6V9, Tô Vĩnh Diện, Đông Hòa, Hồ Chí Minh, Việt Nam",
-    "lat": 10.8830449,
-    "lon": 106.7847384,
-    "map": "https://www.google.com/maps?cid=3859334469157949967",
-    "place_id": "ChIJQ5pEBzzZdDERD5KUh0AcjzU",
-    "verified_at": "2026-11-23",
-    "verification_scope": "google_maps_profile",
-    "entrance_verified": false,
-    "menu_type": "sample",
-    "source": "https://ganlang.vn/cam-nang-dia-diem-lang-dai-hoc/",
-    "dishes": [
-      {
-        "name": "Lẩu chay nấm",
-        "price": 95000,
-        "photo": "lau",
-        "unit": "nồi"
-      },
-      {
-        "name": "Lẩu Thái chay",
-        "price": 105000,
-        "photo": "lau",
-        "unit": "nồi"
-      }
-    ]
-  },
-  {
     "id": "v36",
     "name": "Lẩu Chay Hữu Duyên",
     "address": "767/6 Tô Vĩnh Diện, Đông Hòa, Hồ Chí Minh, Việt Nam",
@@ -220,164 +192,6 @@
         "price": 110000,
         "photo": "lau",
         "unit": "nồi"
-      }
-    ]
-  },
-  {
-    "id": "v37",
-    "name": "PaPa Xốt Singapore 3",
-    "address": "Đông Hòa, Hồ Chí Minh, Việt Nam",
-    "lat": 10.8830483,
-    "lon": 106.7844714,
-    "map": "https://goo.gl/maps/xbp5mTBReTQKpKst6",
-    "place_id": "ChIJCUJggwfZdDERQWVLxc8lc4M",
-    "verified_at": "2026-11-23",
-    "verification_scope": "google_maps_profile",
-    "entrance_verified": false,
-    "menu_type": "sample",
-    "source": "https://ganlang.vn/cam-nang-dia-diem-lang-dai-hoc/",
-    "dishes": [
-      {
-        "name": "Cơm xèo bò",
-        "price": 45000,
-        "photo": "com",
-        "unit": "phần"
-      },
-      {
-        "name": "Cơm xèo hải sản",
-        "price": 50000,
-        "photo": "com",
-        "unit": "phần"
-      }
-    ]
-  },
-  {
-    "id": "v01",
-    "name": "Hằng Thiện Chay - Vegetarian Restaurant",
-    "address": "68 Nguyễn Bỉnh Khiêm, Đông Hòa, Hồ Chí Minh, Việt Nam",
-    "lat": 10.8777398,
-    "lon": 106.8089017,
-    "map": "https://goo.gl/maps/k34qFCzktRuwR9e2A",
-    "place_id": "ChIJE1a_tUHZdDERUU9gQBrAEtM",
-    "verified_at": "2026-11-23",
-    "verification_scope": "google_maps_profile",
-    "entrance_verified": false,
-    "menu_type": "sample",
-    "source": "https://ganlang.vn/danh-sach-quan-an-uong-lang-dai-hoc-da-mo-cua-phuc-vu-sinh-vien/",
-    "dishes": [
-      {
-        "name": "Cơm chay nấm kho",
-        "price": 28000,
-        "photo": "chay",
-        "unit": "phần"
-      },
-      {
-        "name": "Lẩu nấm chay",
-        "price": 95000,
-        "photo": "lau",
-        "unit": "nồi"
-      },
-      {
-        "name": "Bún chay rau củ",
-        "price": 30000,
-        "photo": "bun",
-        "unit": "phần"
-      }
-    ]
-  },
-  {
-    "id": "v04",
-    "name": "BÚN ĐẬU BOX",
-    "address": "Đông Hòa, Hồ Chí Minh, Việt Nam",
-    "lat": 10.8742738,
-    "lon": 106.7994206,
-    "map": "https://goo.gl/maps/9ayMj6whd49yEURDA",
-    "place_id": "ChIJEapoQg7ZdDERoR166FTVL4k",
-    "verified_at": "2026-11-23",
-    "verification_scope": "google_maps_profile",
-    "entrance_verified": false,
-    "menu_type": "sample",
-    "source": "https://ganlang.vn/danh-sach-quan-an-uong-lang-dai-hoc-da-mo-cua-phuc-vu-sinh-vien/",
-    "dishes": [
-      {
-        "name": "Bún đậu mắm tôm",
-        "price": 35000,
-        "photo": "bun",
-        "unit": "phần"
-      },
-      {
-        "name": "Bún đậu chả cốm",
-        "price": 40000,
-        "photo": "bun",
-        "unit": "phần"
-      },
-      {
-        "name": "Bún đậu đặc biệt",
-        "price": 55000,
-        "photo": "bun",
-        "unit": "phần"
-      }
-    ]
-  },
-  {
-    "id": "v05",
-    "name": "Lẩu chay Tâm Diệu 3",
-    "address": "VQFX+HVR, Đông Hòa, Hồ Chí Minh, Việt Nam",
-    "lat": 10.8739982,
-    "lon": 106.799651,
-    "map": "https://goo.gl/maps/z7XzuDemWb9Jfihj7",
-    "place_id": "ChIJs_klvPHZdDERcQdvXRMeMCA",
-    "verified_at": "2026-11-23",
-    "verification_scope": "google_maps_profile",
-    "entrance_verified": false,
-    "menu_type": "sample",
-    "source": "https://ganlang.vn/danh-sach-quan-an-uong-lang-dai-hoc-da-mo-cua-phuc-vu-sinh-vien/",
-    "dishes": [
-      {
-        "name": "Bún nấm chay",
-        "price": 28000,
-        "photo": "bun",
-        "unit": "phần"
-      },
-      {
-        "name": "Cơm chay thập cẩm",
-        "price": 30000,
-        "photo": "chay",
-        "unit": "phần"
-      },
-      {
-        "name": "Lẩu rau nấm",
-        "price": 90000,
-        "photo": "lau",
-        "unit": "nồi"
-      }
-    ]
-  },
-  {
-    "id": "v07",
-    "name": "Bánh mì hà nội",
-    "address": "Đường D2/tổ 8 Tân Lập, Khu Phố, Đông Hòa, Hồ Chí Minh, Việt Nam",
-    "lat": 10.873662,
-    "lon": 106.8008731,
-    "map": "https://goo.gl/maps/XhPU4bFw7VZrrtDA6",
-    "place_id": "ChIJqdvdBTHZdDERXR70VQH7eOQ",
-    "verified_at": "2026-11-23",
-    "verification_scope": "google_maps_profile",
-    "entrance_verified": false,
-    "menu_type": "sample",
-    "source": "https://ganlang.vn/danh-sach-quan-an-uong-lang-dai-hoc-da-mo-cua-phuc-vu-sinh-vien/",
-    "dishes": [
-      {
-        "name": "Bánh mì thịt nướng",
-        "price": 25000,
-        "photo": "banh",
-        "unit": "phần"
-      },
-      {
-        "name": "Bánh mì trứng",
-        "price": 18000,
-        "photo": "banh",
-        "unit": "phần"
       }
     ]
   },
@@ -416,34 +230,6 @@
     ]
   },
   {
-    "id": "v13",
-    "name": "Bò né Chu Pin",
-    "address": "VQFX+749, Đường T1, Đông Hòa, Hồ Chí Minh, Việt Nam",
-    "lat": 10.8731734,
-    "lon": 106.7978699,
-    "map": "https://goo.gl/maps/AoVJDwXmWjpc91Ar8",
-    "place_id": "ChIJedrgJhrZdDERImv5wEnk-BA",
-    "verified_at": "2026-11-23",
-    "verification_scope": "google_maps_profile",
-    "entrance_verified": false,
-    "menu_type": "sample",
-    "source": "https://ganlang.vn/danh-sach-quan-an-uong-lang-dai-hoc-da-mo-cua-phuc-vu-sinh-vien/",
-    "dishes": [
-      {
-        "name": "Bò né trứng",
-        "price": 42000,
-        "photo": "bo",
-        "unit": "phần"
-      },
-      {
-        "name": "Bánh mì bò né",
-        "price": 48000,
-        "photo": "bo",
-        "unit": "phần"
-      }
-    ]
-  },
-  {
     "id": "v16",
     "name": "Cơm tấm Ngô Quyền",
     "address": "21/5 Võ Nguyên Giáp, Linh Xuân, Hồ Chí Minh, Việt Nam",
@@ -467,90 +253,6 @@
         "name": "Cơm sườn bì chả",
         "price": 42000,
         "photo": "com",
-        "unit": "phần"
-      }
-    ]
-  },
-  {
-    "id": "v19",
-    "name": "Phở Lý Quốc Sư Hà Nội| PHỞ NGON LÀNG ĐẠI HỌC| PHỞ NGON THỦ ĐỨC",
-    "address": "VQFX+4X3, Đông Hòa, Hồ Chí Minh, Việt Nam",
-    "lat": 10.8727747,
-    "lon": 106.7999362,
-    "map": "https://goo.gl/maps/EYSfnuTjDAQ7dgjJ8",
-    "place_id": "ChIJOwAjal7ZdDERi9DFW_nvuJY",
-    "verified_at": "2026-11-23",
-    "verification_scope": "google_maps_profile",
-    "entrance_verified": false,
-    "menu_type": "sample",
-    "source": "https://ganlang.vn/danh-sach-quan-an-uong-lang-dai-hoc-da-mo-cua-phuc-vu-sinh-vien/",
-    "dishes": [
-      {
-        "name": "Phở tái nạm",
-        "price": 45000,
-        "photo": "pho",
-        "unit": "phần"
-      },
-      {
-        "name": "Phở bò tái",
-        "price": 40000,
-        "photo": "pho",
-        "unit": "phần"
-      }
-    ]
-  },
-  {
-    "id": "v21",
-    "name": "Hủ tiếu 76 Quảng Ngãi",
-    "address": "VRF2+87G, Đông Hòa, Hồ Chí Minh, Việt Nam",
-    "lat": 10.873311,
-    "lon": 106.800696,
-    "map": "https://goo.gl/maps/c36Lhg1qGRFEDyBr5",
-    "place_id": "ChIJfUGUccfZdDER_gm8RWBpKxk",
-    "verified_at": "2026-11-23",
-    "verification_scope": "google_maps_profile",
-    "entrance_verified": false,
-    "menu_type": "sample",
-    "source": "https://ganlang.vn/danh-sach-quan-an-uong-lang-dai-hoc-da-mo-cua-phuc-vu-sinh-vien/",
-    "dishes": [
-      {
-        "name": "Hủ tiếu Quảng Ngãi",
-        "price": 32000,
-        "photo": "mi",
-        "unit": "phần"
-      },
-      {
-        "name": "Hủ tiếu sườn",
-        "price": 38000,
-        "photo": "mi",
-        "unit": "phần"
-      }
-    ]
-  },
-  {
-    "id": "v22",
-    "name": "CƠM CHAY THIÊN NHIÊN - Làng Đại Học",
-    "address": "9 Đông Hòa, Hồ Chí Minh, Việt Nam",
-    "lat": 10.8725518,
-    "lon": 106.7995662,
-    "map": "https://goo.gl/maps/oDR5m8DhuikBNiaw5",
-    "place_id": "ChIJN5Q6ZF7ZdDER1x0IETl9dZM",
-    "verified_at": "2026-11-23",
-    "verification_scope": "google_maps_profile",
-    "entrance_verified": false,
-    "menu_type": "sample",
-    "source": "https://ganlang.vn/danh-sach-quan-an-uong-lang-dai-hoc-da-mo-cua-phuc-vu-sinh-vien/",
-    "dishes": [
-      {
-        "name": "Cơm chay đậu hũ",
-        "price": 25000,
-        "photo": "chay",
-        "unit": "phần"
-      },
-      {
-        "name": "Cơm chay nấm kho",
-        "price": 28000,
-        "photo": "chay",
         "unit": "phần"
       }
     ]
@@ -580,34 +282,6 @@
         "price": 40000,
         "photo": "mi",
         "unit": "phần"
-      }
-    ]
-  },
-  {
-    "id": "v25",
-    "name": "Quán dê Hưng Mập",
-    "address": "161 Tô Vĩnh Diện, Đông Hòa, Hồ Chí Minh, Việt Nam",
-    "lat": 10.8828601,
-    "lon": 106.7854609,
-    "map": "https://goo.gl/maps/FDddS3Lfs7Y7RXwH8",
-    "place_id": "ChIJxTzzOsbZdDERK1sKVoJ32AY",
-    "verified_at": "2026-11-23",
-    "verification_scope": "google_maps_profile",
-    "entrance_verified": false,
-    "menu_type": "sample",
-    "source": "https://ganlang.vn/danh-sach-quan-an-uong-lang-dai-hoc-da-mo-cua-phuc-vu-sinh-vien/",
-    "dishes": [
-      {
-        "name": "Lẩu dê",
-        "price": 165000,
-        "photo": "lau",
-        "unit": "nồi"
-      },
-      {
-        "name": "Dê hấp sả",
-        "price": 105000,
-        "photo": "",
-        "unit": "đĩa"
       }
     ]
   },
@@ -663,6 +337,314 @@
         "name": "Cơm chay rau củ",
         "price": 30000,
         "photo": "chay",
+        "unit": "phần"
+      }
+    ]
+  },
+  {
+    "id": "v38",
+    "name": "IU Canteen",
+    "address": "VRH2+27J, Đông Hòa, Hồ Chí Minh, Việt Nam",
+    "lat": 10.8775759,
+    "lon": 106.8006439,
+    "map": "https://maps.app.goo.gl/4NGDiPbKYuCS38wn9",
+    "place_id": "ChIJYZwXc6TYdDERR29dEcBKxco",
+    "verified_at": "2026-11-24",
+    "verification_scope": "google_maps_profile",
+    "entrance_verified": false,
+    "menu_type": "sample",
+    "source": "https://maps.app.goo.gl/4NGDiPbKYuCS38wn9",
+    "dishes": [
+      {
+        "name": "Cơm gà",
+        "price": 32000,
+        "photo": "com",
+        "unit": "phần"
+      },
+      {
+        "name": "Cơm trứng",
+        "price": 25000,
+        "photo": "com",
+        "unit": "phần"
+      }
+    ]
+  },
+  {
+    "id": "v39",
+    "name": "Quán Ăn - Hai Chị Em",
+    "address": "220 Đ. Vành Đai Đhqg Hcm, Đông Hòa, Hồ Chí Minh, Việt Nam",
+    "lat": 10.8824366,
+    "lon": 106.8120814,
+    "map": "https://maps.app.goo.gl/a8t51PghLtQoi1zS7",
+    "place_id": "ChIJ7Q4TDwDZdDERZKmmwX0yudc",
+    "verified_at": "2026-11-24",
+    "verification_scope": "google_maps_profile",
+    "entrance_verified": false,
+    "menu_type": "sample",
+    "source": "https://maps.app.goo.gl/a8t51PghLtQoi1zS7",
+    "dishes": [
+      {
+        "name": "Cơm sườn",
+        "price": 35000,
+        "photo": "com",
+        "unit": "phần"
+      },
+      {
+        "name": "Bún thịt nướng",
+        "price": 35000,
+        "photo": "bun",
+        "unit": "phần"
+      }
+    ]
+  },
+  {
+    "id": "v40",
+    "name": "Ốc Hoàng - Ốc Ngon Vành Đai, Làng Đại Học",
+    "address": "204 Nguyễn Bỉnh Khiêm, khu phố Tân Lập, Đông Hòa, Hồ Chí Minh, Việt Nam",
+    "lat": 10.8818706,
+    "lon": 106.8117508,
+    "map": "https://maps.app.goo.gl/oLW2S5PESfUbAszN9",
+    "place_id": "ChIJc6DrTADZdDER30uVhTrenx4",
+    "verified_at": "2026-11-24",
+    "verification_scope": "google_maps_profile",
+    "entrance_verified": false,
+    "menu_type": "sample",
+    "source": "https://maps.app.goo.gl/oLW2S5PESfUbAszN9",
+    "dishes": [
+      {
+        "name": "Ốc hấp sả",
+        "price": 45000,
+        "photo": "",
+        "unit": "phần"
+      },
+      {
+        "name": "Ốc xào bơ tỏi",
+        "price": 55000,
+        "photo": "",
+        "unit": "phần"
+      }
+    ]
+  },
+  {
+    "id": "v41",
+    "name": "Lẩu Bò Triều Châu Làng Đại Học",
+    "address": "Nhà Công Vụ 1, Nguyễn Du, Khu đô thị ĐHQG-HCM, Khu phố Tân Hòa, Làng Đại Học Quốc Gia, Đông Hòa, Hồ Chí Minh 70000, Việt Nam",
+    "lat": 10.8806053,
+    "lon": 106.7959906,
+    "map": "https://maps.app.goo.gl/WvHuv6GJvuUJ6f8YA",
+    "place_id": "ChIJwyzjUADZdDERBaLDdtXa_y8",
+    "verified_at": "2026-11-24",
+    "verification_scope": "google_maps_profile",
+    "entrance_verified": false,
+    "menu_type": "sample",
+    "source": "https://maps.app.goo.gl/WvHuv6GJvuUJ6f8YA",
+    "dishes": [
+      {
+        "name": "Lẩu bò",
+        "price": 120000,
+        "photo": "lau",
+        "unit": "nồi"
+      },
+      {
+        "name": "Mì bò",
+        "price": 45000,
+        "photo": "mi",
+        "unit": "phần"
+      }
+    ]
+  },
+  {
+    "id": "v42",
+    "name": "Quán Phở Thanh Vân",
+    "address": "84-86 Bảo Vệ Tuyến Ống Nước Thô, Đông Hòa, Hồ Chí Minh, Việt Nam",
+    "lat": 10.8881249,
+    "lon": 106.787442,
+    "map": "https://maps.app.goo.gl/DafYE5QwATBnYmWSA",
+    "place_id": "ChIJAYeIMgDZdDERJgCZqDX_Jws",
+    "verified_at": "2026-11-24",
+    "verification_scope": "google_maps_profile",
+    "entrance_verified": false,
+    "menu_type": "sample",
+    "source": "https://maps.app.goo.gl/DafYE5QwATBnYmWSA",
+    "dishes": [
+      {
+        "name": "Phở bò tái",
+        "price": 40000,
+        "photo": "pho",
+        "unit": "phần"
+      },
+      {
+        "name": "Phở bò viên",
+        "price": 35000,
+        "photo": "pho",
+        "unit": "phần"
+      }
+    ]
+  },
+  {
+    "id": "v43",
+    "name": "Hủ tiếu 71 làng đại học",
+    "address": "đại học Nông Lâm, Đ. Số 4/225 tổ 1, Khu Phố 6, Hiệp Bình, Hồ Chí Minh 700000, Việt Nam",
+    "lat": 10.8692432,
+    "lon": 106.7895066,
+    "map": "https://www.google.com/maps/search/?api=1&query=H%E1%BB%A7+ti%E1%BA%BFu+71+l%C3%A0ng+%C4%91%E1%BA%A1i+h%E1%BB%8Dc&query_place_id=ChIJry1LSxbZdDER5X2vSbThhwI",
+    "place_id": "ChIJry1LSxbZdDER5X2vSbThhwI",
+    "verified_at": "2026-11-24",
+    "verification_scope": "google_maps_profile",
+    "entrance_verified": false,
+    "menu_type": "sample",
+    "source": "https://www.google.com/maps/search/?api=1&query=H%E1%BB%A7+ti%E1%BA%BFu+71+l%C3%A0ng+%C4%91%E1%BA%A1i+h%E1%BB%8Dc&query_place_id=ChIJry1LSxbZdDER5X2vSbThhwI",
+    "dishes": [
+      {
+        "name": "Hủ tiếu thịt",
+        "price": 30000,
+        "photo": "",
+        "unit": "phần"
+      },
+      {
+        "name": "Hủ tiếu bò viên",
+        "price": 35000,
+        "photo": "",
+        "unit": "phần"
+      }
+    ]
+  },
+  {
+    "id": "v44",
+    "name": "Lẩu chay Hoằng Đạt 2 (cs5)",
+    "address": "33/6 Đường, 33/6 Đ. Lương Định Của, Phường, Đông Hòa, Hồ Chí Minh, Việt Nam",
+    "lat": 10.8839742,
+    "lon": 106.7838428,
+    "map": "https://www.google.com/maps/search/?api=1&query=L%E1%BA%A9u+chay+Ho%E1%BA%B1ng+%C4%90%E1%BA%A1t+2+%28cs5%29&query_place_id=ChIJi9PEvQHZdDEReDIM_l5isy4",
+    "place_id": "ChIJi9PEvQHZdDEReDIM_l5isy4",
+    "verified_at": "2026-11-24",
+    "verification_scope": "google_maps_profile",
+    "entrance_verified": false,
+    "menu_type": "sample",
+    "source": "https://www.google.com/maps/search/?api=1&query=L%E1%BA%A9u+chay+Ho%E1%BA%B1ng+%C4%90%E1%BA%A1t+2+%28cs5%29&query_place_id=ChIJi9PEvQHZdDEReDIM_l5isy4",
+    "dishes": [
+      {
+        "name": "Lẩu nấm chay",
+        "price": 95000,
+        "photo": "lau",
+        "unit": "nồi"
+      },
+      {
+        "name": "Bún nấm chay",
+        "price": 30000,
+        "photo": "bun",
+        "unit": "phần"
+      }
+    ]
+  },
+  {
+    "id": "v45",
+    "name": "Cơm gà Tam Kỳ làng đại học",
+    "address": "89 Đ. Lương Định Của, KP, Đông Hòa, Hồ Chí Minh, Việt Nam",
+    "lat": 10.8844927,
+    "lon": 106.7833066,
+    "map": "https://www.google.com/maps/search/?api=1&query=C%C6%A1m+g%C3%A0+Tam+K%E1%BB%B3+l%C3%A0ng+%C4%91%E1%BA%A1i+h%E1%BB%8Dc&query_place_id=ChIJiUP3dADZdDERlM8uYjn4k8k",
+    "place_id": "ChIJiUP3dADZdDERlM8uYjn4k8k",
+    "verified_at": "2026-11-24",
+    "verification_scope": "google_maps_profile",
+    "entrance_verified": false,
+    "menu_type": "sample",
+    "source": "https://www.google.com/maps/search/?api=1&query=C%C6%A1m+g%C3%A0+Tam+K%E1%BB%B3+l%C3%A0ng+%C4%91%E1%BA%A1i+h%E1%BB%8Dc&query_place_id=ChIJiUP3dADZdDERlM8uYjn4k8k",
+    "dishes": [
+      {
+        "name": "Cơm gà xé",
+        "price": 35000,
+        "photo": "com",
+        "unit": "phần"
+      },
+      {
+        "name": "Cơm gà đùi",
+        "price": 45000,
+        "photo": "com",
+        "unit": "phần"
+      }
+    ]
+  },
+  {
+    "id": "v46",
+    "name": "Dookki Bcons Dĩ An",
+    "address": "38 Đ. Thống Nhất, Đông Hòa, Hồ Chí Minh, Việt Nam",
+    "lat": 10.8925739,
+    "lon": 106.7937847,
+    "map": "https://www.google.com/maps/search/?api=1&query=Dookki+Bcons+D%C4%A9+An&query_place_id=ChIJO0wpWgDZdDERxCKhkPc-Wa0",
+    "place_id": "ChIJO0wpWgDZdDERxCKhkPc-Wa0",
+    "verified_at": "2026-11-24",
+    "verification_scope": "google_maps_profile",
+    "entrance_verified": false,
+    "menu_type": "sample",
+    "source": "https://www.google.com/maps/search/?api=1&query=Dookki+Bcons+D%C4%A9+An&query_place_id=ChIJO0wpWgDZdDERxCKhkPc-Wa0",
+    "dishes": [
+      {
+        "name": "Buffet lẩu bánh gạo",
+        "price": 139000,
+        "photo": "lau",
+        "unit": "phần"
+      },
+      {
+        "name": "Lẩu bánh gạo phần đơn",
+        "price": 99000,
+        "photo": "lau",
+        "unit": "phần"
+      }
+    ]
+  },
+  {
+    "id": "v47",
+    "name": "Lẩu Cá 44",
+    "address": "11/21 Đường Số 1, khu phố Tân Lập, Đông Hòa, Hồ Chí Minh, Việt Nam",
+    "lat": 10.881256,
+    "lon": 106.812649,
+    "map": "https://www.google.com/maps/search/?api=1&query=L%E1%BA%A9u+C%C3%A1+44&query_place_id=ChIJb2R36aXYdDERS50bl_Jw9Vg",
+    "place_id": "ChIJb2R36aXYdDERS50bl_Jw9Vg",
+    "verified_at": "2026-11-24",
+    "verification_scope": "google_maps_profile",
+    "entrance_verified": false,
+    "menu_type": "sample",
+    "source": "https://www.google.com/maps/search/?api=1&query=L%E1%BA%A9u+C%C3%A1+44&query_place_id=ChIJb2R36aXYdDERS50bl_Jw9Vg",
+    "dishes": [
+      {
+        "name": "Lẩu cá",
+        "price": 120000,
+        "photo": "lau",
+        "unit": "nồi"
+      },
+      {
+        "name": "Bún cá",
+        "price": 35000,
+        "photo": "bun",
+        "unit": "phần"
+      }
+    ]
+  },
+  {
+    "id": "v48",
+    "name": "Phở Thiên Ân làng đại học",
+    "address": "Nhà Điều Hành ĐH Khoa học Tự nhiên Tp.HCM, Đông Hòa, Hồ Chí Minh, Việt Nam",
+    "lat": 10.8756053,
+    "lon": 106.799651,
+    "map": "https://www.google.com/maps/search/?api=1&query=Ph%E1%BB%9F+Thi%C3%AAn+%C3%82n+l%C3%A0ng+%C4%91%E1%BA%A1i+h%E1%BB%8Dc&query_place_id=ChIJOzTk-PbZdDERvctfUyycJRA",
+    "place_id": "ChIJOzTk-PbZdDERvctfUyycJRA",
+    "verified_at": "2026-11-24",
+    "verification_scope": "google_maps_profile",
+    "entrance_verified": false,
+    "menu_type": "sample",
+    "source": "https://www.google.com/maps/search/?api=1&query=Ph%E1%BB%9F+Thi%C3%AAn+%C3%82n+l%C3%A0ng+%C4%91%E1%BA%A1i+h%E1%BB%8Dc&query_place_id=ChIJOzTk-PbZdDERvctfUyycJRA",
+    "dishes": [
+      {
+        "name": "Phở bò tái",
+        "price": 40000,
+        "photo": "pho",
+        "unit": "phần"
+      },
+      {
+        "name": "Phở bò chín",
+        "price": 40000,
+        "photo": "pho",
         "unit": "phần"
       }
     ]
