@@ -140,7 +140,7 @@ function App() {
               open={(id) => {
                 location.hash = id ? "quan/" + id : "tim-mon";
               }}
-              signed={!!uid}
+              userId={uid}
               record={record}
             />
           )}

@@ -11,18 +11,19 @@ import {
   type Branch,
   type Dish,
 } from "./lib";
+import { Reviews } from "./Reviews";
 export function Catalog({
   branches,
   open,
   active,
   record,
-  signed,
+  userId,
 }: {
   branches: Branch[];
   open: (id: string) => void;
   active: string;
   record: (b: Branch, d: Dish) => void;
-  signed: boolean;
+  userId?: string;
 }) {
   const [query, setQuery] = useState(""),
     [cap, setCap] = useState(""),
@@ -166,6 +167,7 @@ export function Catalog({
               </div>
             ))}
         </section>
+        <Reviews key={b.id + (userId ?? "")} branch={b.id} signed={!!userId} />
         {tag(b) && <Offer id={b.id} />}
         <button
           onClick={() => {
@@ -177,7 +179,7 @@ export function Catalog({
         </button>
         {feedback && (
           <Dialog title="Báo sai địa điểm" close={() => setFeedback(false)}>
-            {signed && db ? (
+            {userId && db ? (
               <form
                 onSubmit={async (e) => {
                   e.preventDefault();
