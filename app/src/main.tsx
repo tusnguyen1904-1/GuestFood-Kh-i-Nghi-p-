@@ -200,11 +200,16 @@ function App() {
               onClick={async () => {
                 setDeleting(true);
                 try {
-                  const { error } = await db!.functions.invoke(
-                    "delete-account",
-                    { body: {} },
-                  );
-                  if (error) throw error;
+                  if (import.meta.env.PROD) {
+                    const res = await fetch("/api/delete-account", {
+                      method: "POST",
+                      headers: { Authorization: "Bearer " + session.access_token },
+                    });
+                    if (!res.ok) throw new Error("Chưa xóa được tài khoản. Vui lòng đăng nhập lại và thử lại.");
+                  } else {
+                    const { error } = await db!.functions.invoke("delete-account", {body: {}});
+                    if (error) throw error;
+                  }
                   await db!.auth.signOut({ scope: "local" });
                   setAccount(false);
                 } catch (e) {

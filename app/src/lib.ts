@@ -1,7 +1,7 @@
 import { createClient } from "@supabase/supabase-js";
 import { useEffect, useRef, type ReactNode, createElement } from "react";
-const url = import.meta.env.VITE_SUPABASE_URL,
-  key = import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY;
+const url = import.meta.env.VITE_PUBLIC_SUPABASE_URL || import.meta.env.VITE_SUPABASE_URL,
+  key = import.meta.env.VITE_PUBLIC_SUPABASE_PUBLISHABLE_KEY || import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY;
 export const db = url && key ? createClient(url, key) : null;
 export type Dish = { name: string; price: number; photo: string; unit: string };
 export type Branch = {
